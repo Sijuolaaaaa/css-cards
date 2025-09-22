@@ -1,0 +1,110 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.BigContainer {
+    display: flex;
+    gap: 60px;
+    padding: 30px 150px;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: rgb(51, 51, 51);
+}
+h2 {
+    font-size: 28px;
+    color: rgb(5, 51, 51);
+    font-weight: 800;
+}
+.Prelim {
+    background-color: #fff;
+}
+.Prelim p {
+    font-size: 22px;
+}
+.Prelim a {
+    font-size: 18px;
+    color: rgb(50, 70, 150);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.Prelim a:hover {
+    color: rgb(224, 97, 0);
+}
+.MiniContainer1 {
+    margin-top: 40px;
+    
+}
+.item1 {
+    border-radius: 30px;
+    padding: 60px;
+    width: 700px;
+    box-shadow: 10px 40px 15px 20px rgba(208, 234, 214, 0.5);
+}
+.item1 img {
+    border-radius: 30px;
+    width: 100%;
+}
+.item1 p {
+    line-height: 1.7;
+    font-size: 20px;
+}
+.item1 a {
+    margin: 20px 0 35px;
+    font-size: 18px;
+}
+.item1 a:hover {
+    color: rgb(224, 97, 0);
+    background-color: #fff;
+    border-radius: 30px;
+}
+#SE {
+    background-color: rgb(213,234,243);
+    margin-bottom: 40px;
+    height: 930px;
+}
+#PD {
+    background-color: rgb(224,213,192);
+    margin-bottom: 20px;
+}
+
+.Container2 {
+    margin-top: 80px;    
+}
+.item2 {
+    border-radius: 30px;
+    padding: 60px;
+    border: 2px solid #000;
+    width: 700px;
+    box-shadow: 10px 40px 20px 20px rgba(255, 222, 217, 0.5);
+
+}
+.item2 img {
+    border-radius: 30px;
+    width: 100%;
+}
+.item2 p {
+    line-height: 1.7;
+    font-size: 20px;
+}
+.item2 a {
+    margin: 20px 0 35px;
+    font-size: 18px;
+}
+.item2 a:hover {
+    color: rgb(224, 97, 0);
+    background-color: #fff;
+    border-radius: 30px;
+}
+#DSA {
+    background-color: rgb(238,239,189);
+    margin-bottom: 30px;
+
+}
+#DL {
+    background-color: rgb(223,213,232);
+    margin-bottom: 0;
+}

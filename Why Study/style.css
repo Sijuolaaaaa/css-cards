@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "poppins" sans-serif;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr;
+    gap: 70px;
+    padding: 30px 200px;
+}
+.item1 div {
+    padding: 20px 0 30px;
+}
+.miniItem1 {
+    margin-top: 10px;
+}
+.item2 div {
+    padding: 20px 0 30px;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 20px;
+}
+p {
+    font-size: 18px;
+    color: rgb(102,102,102);
+    font-weight: 500;
+    line-height: 2.0;
+    margin: 5px 0 10px;
+}
+.item3 img {
+    width: 300px;
+    height: 980px;
+    margin: 10px 0;
+}
+i {
+    padding-bottom: 25px;
+}
+.item1 {
+    margin-top: 30px;
+}
+.item2 {
+    margin-top: 105px;
+}
+.item2b {
+    margin-top: 32px;
+}
+.item2c {
+    margin-top: -6px;
+}
+.item2d {
+    margin-top: -25px;
+}
