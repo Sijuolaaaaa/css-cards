@@ -10,7 +10,6 @@ body {
 }
 .container {
     display: flex;
-    /* grid-template-columns: 1fr 1fr 1fr; */
     gap: 40px;
     padding: 30px 200px;
     margin-top: 10px;
@@ -66,4 +65,8 @@ h1 {
     padding: 10px 30px;
     font-weight: 600;
     font-size: 18px;
+}
+
+@media screen and (max-width: 480px) {
+    
 }

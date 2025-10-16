@@ -57,3 +57,61 @@ i {
 .item2d {
     margin-top: -25px;
 }
+
+@media screen and (max-width: 480px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 25px;
+        padding: 30px 70px;
+    }
+    .item1, .item2, .item3 {
+        margin: 0;
+        padding: 0;
+    }
+    /* .item2 {
+        margin: 0 0 30px;
+    } */
+    .item3 img {
+        width: 350px;
+        height: 350px;
+        /* margin: 10px 0; */
+    }
+    p {
+        font-size: 16px;
+        color: rgb(102,102,102);
+        font-weight: 500;
+        line-height: 2.0;
+        margin: 5px 0;
+    }
+    
+    .item1 div, .item2 div {
+        padding: 10px 0;
+    }
+    
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .item1 {
+        margin-bottom: 0px;
+    }
+    .item2b, .item2c, .item2d, .innerItem {
+        margin: 0;
+    }
+    /* .item2c {
+        margin: 20px 0;
+    }
+    .item2d {
+        margin: 20px 0;
+    } */
+    /* .innerItem {
+        margin: 20px 0;
+    } */
+    .miniItem1 {
+        margin: 10px 0 0;
+    }
+}

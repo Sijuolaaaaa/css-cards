@@ -108,3 +108,22 @@ h2 {
     background-color: rgb(223,213,232);
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 480) {
+    .BigContainer {
+        display: flex;
+        padding: 30px 80px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .Container1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .Container2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
